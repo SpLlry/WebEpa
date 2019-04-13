@@ -1,0 +1,254 @@
+2018年6月24日11时39分30秒 服务器启动成功
+2018年6月24日16时20分16秒 服务器启动成功
+2018年6月24日16时29分14秒 http连接:127.0.0.1:81 GET:\test.epa?username=sp9510&password=undefined
+2018年6月24日16时51分7秒 http连接:127.0.0.1:81 GET:\test.epa?login&username=sp9510&password=undefined
+2018年6月24日16时51分40秒 http连接:127.0.0.1:81 GET:\test.epa?login&username=sp9510&password=undefined
+2018年6月24日16时51分42秒 警告:程序发生错误
+错误信息:访问无效内存
+         尝试的操作：读取
+         目标地址:0x00000022
+发生位置:0x03C3E145
+分析位置:0x03C3E145
+CallStack:
+ 0x03C3E145
+  0x03C33776
+   [WebEpa.exe]+0x0008989D=0048989D
+    [WebEpa.exe]+0x356D=0040356D
+     [WebEpa.exe]+0x306E=0040306E
+      [WebEpa.exe]+0x6F3A=00406F3A
+       0x5605D7BA
+        [HPSocket4C.dll]+0x3977=56033977
+         0x5605CA30
+          0x5605B509
+           0x56064BDD
+            0x5606696A
+             0x5606661C
+              0x5606647C
+               0x561423AA
+                0x56142434
+                 0x003B0034
+                  0x003B0015
+
+2018年6月24日16时52分7秒 服务器启动成功
+2018年6月24日16时52分10秒 警告:程序发生错误
+错误信息:访问无效内存
+         尝试的操作：读取
+         目标地址:0x00000022
+发生位置:0x0C40E145
+分析位置:0x0C40E145
+CallStack:
+ 0x0C40E145
+  0x0C403776
+   [WebEpa.exe]+0x0008989D=0048989D
+    [WebEpa.exe]+0x356D=0040356D
+     [WebEpa.exe]+0x306E=0040306E
+      [WebEpa.exe]+0x6F3A=00406F3A
+       0x5202D7BA
+        [HPSocket4C.dll]+0x3977=52003977
+         0x5202CA30
+          0x5202B509
+           0x52034BDD
+            0x5203696A
+             0x5203661C
+              0x5203647C
+               0x521123AA
+                0x52112434
+                 0x003F0034
+                  0x003F0015
+
+2018年6月24日16时52分52秒 服务器启动成功
+2018年6月24日16时52分54秒 警告:程序发生错误
+错误信息:访问无效内存
+         尝试的操作：读取
+         目标地址:0x0C595000
+发生位置:0x0C3FE145
+分析位置:0x0C3FE145
+CallStack:
+ 0x0C3FE145
+  0x0C3F3776
+   [WebEpa.exe]+0x0008990D=0048990D
+    [WebEpa.exe]+0x356D=0040356D
+     [WebEpa.exe]+0x306E=0040306E
+      [WebEpa.exe]+0x6F56=00406F56
+       0x5173D7BA
+        [HPSocket4C.dll]+0x3977=51713977
+         0x5173CA30
+          0x5173B509
+           0x51744BDD
+            0x5174696A
+             0x5174661C
+              0x5174647C
+               0x518223AA
+                0x51822434
+                 0x003E0034
+                  0x003E0015
+
+2018年6月24日16时53分41秒 服务器启动成功
+2018年6月24日16时53分44秒 http连接:127.0.0.1:81 GET:\test.epa?
+2018年6月24日16时53分52秒 http连接:127.0.0.1:81 GET:\test.epa?
+2018年6月24日16时55分32秒 http连接:127.0.0.1:81 GET:\test.epa?
+2018年6月24日16时56分27秒 http连接:127.0.0.1:81 GET:\test.epa?
+2018年6月24日16时56分39秒 http连接:127.0.0.1:81 GET:\test.epa?
+2018年6月24日16时59分44秒 http连接:127.0.0.1:81 GET:\test.epa?
+2018年6月24日16时59分51秒 http连接:127.0.0.1:81 GET:\test.epa?
+2018年6月24日17时0分45秒 http连接:127.0.0.1:81 GET:\test.epa?
+2018年6月24日17时1分1秒 http连接:127.0.0.1:81 GET:\test.epa?
+2018年6月24日17时1分10秒 http连接:127.0.0.1:81 GET:\test.epa?
+2018年6月24日17时1分24秒 http连接:127.0.0.1:81 GET:\test.epa?
+2018年6月24日17时1分33秒 http连接:127.0.0.1:81 GET:\test.epa?
+2018年6月24日17时1分34秒 http连接:127.0.0.1:81 GET:\test.epa?
+2018年6月24日17时7分44秒 警告:程序发生错误
+错误信息:访问无效内存
+         尝试的操作：读取
+         目标地址:0x3A434006
+发生位置:0x0C3E1A8B
+分析位置:0x0C3E1A8B
+CallStack:
+ 0x0C3E1A8B
+  0x0C3823AE
+   0x0C383BA8
+    [WebEpa.exe]+0x0008991D=0048991D
+     [WebEpa.exe]+0x356D=0040356D
+      [WebEpa.exe]+0x306E=0040306E
+       [WebEpa.exe]+0x6F6A=00406F6A
+        0x519AD7BA
+         [HPSocket4C.dll]+0x3977=51983977
+          0x519ACA30
+           0x519AB509
+            0x519B4BDD
+             0x519B696A
+              0x519B661C
+               0x519B647C
+                0x51A923AA
+                 0x51A92434
+                  0x003C0034
+                   0x003C0015
+
+2018年6月24日17时7分52秒 服务器启动成功
+2018年6月24日17时7分54秒 警告:程序发生错误
+错误信息:访问无效内存
+         尝试的操作：读取
+         目标地址:0x3A434006
+发生位置:0x0C421A8B
+分析位置:0x0C421A8B
+CallStack:
+ 0x0C421A8B
+  0x0C3C23AE
+   0x0C3C3BA8
+    [WebEpa.exe]+0x0008991D=0048991D
+     [WebEpa.exe]+0x356D=0040356D
+      [WebEpa.exe]+0x306E=0040306E
+       [WebEpa.exe]+0x6F6A=00406F6A
+        0x517ED7BA
+         [HPSocket4C.dll]+0x3977=517C3977
+          0x517ECA30
+           0x517EB509
+            0x517F4BDD
+             0x517F696A
+              0x517F661C
+               0x517F647C
+                0x518D23AA
+                 0x518D2434
+                  0x003D0034
+                   0x003D0015
+
+2018年6月24日17时8分56秒 服务器启动成功
+2018年6月24日17时8分59秒 警告:程序发生错误
+错误信息:访问无效内存
+         尝试的操作：读取
+         目标地址:0x3A434006
+发生位置:0x0C661AEB
+分析位置:0x0C661AEB
+CallStack:
+ 0x0C661AEB
+  0x0C60160C
+   0x0C603BC9
+    [WebEpa.exe]+0x0008991D=0048991D
+     [WebEpa.exe]+0x356D=0040356D
+      [WebEpa.exe]+0x306E=0040306E
+       [WebEpa.exe]+0x6F6A=00406F6A
+        0x55C2D7BA
+         [HPSocket4C.dll]+0x3977=55C03977
+          0x55C2CA30
+           0x55C2B509
+            0x55C34BDD
+             0x55C3696A
+              0x55C3661C
+               0x55C3647C
+                0x55D123AA
+                 0x55D12434
+                  0x00850034
+                   0x00850015
+
+2018年6月24日17时9分30秒 服务器启动成功
+2018年6月24日17时19分20秒 服务器启动成功
+2018年6月24日17时19分25秒 警告:程序发生错误
+错误信息:访问无效内存
+         尝试的操作：读取
+         目标地址:0x000001A8
+发生位置:0x10091CBE
+相对地址:[test.epa].0x00091CBE
+分析位置:0x003B0034
+CallStack:
+ 0x10091CBE
+  0x100773FC
+   0x100785AC
+    [ntdll.dll].RtlQueryEnvironmentVariable+0x0245
+     [ntdll.dll].LdrShutdownThread+0xE2
+      [ntdll.dll].RtlExitUserThread+0x2A
+       [msvcrt.dll]._endthreadex+0x23
+        [msvcrt.dll]._itow_s+0x52
+         [msvcrt.dll]._endthreadex+0x6C
+          0x003B0034
+           0x003B0015
+
+2018年6月24日17时24分8秒 服务器启动成功
+2018年6月24日17时24分14秒 警告:程序发生错误
+错误信息:访问无效内存
+         尝试的操作：读取
+         目标地址:0x00000294
+发生位置:0x1006162B
+相对地址:[test.epa].0x0006162B
+分析位置:0x00488ACD
+CallStack:
+ 0x1006162B
+  [test.epa]+0x11FC=100011FC
+   [test.epa].POST+0x49
+    [WebEpa.exe]+0x00088ACD=00488ACD
+     [WebEpa.exe]+0x356D=0040356D
+      [WebEpa.exe]+0x306E=0040306E
+       [WebEpa.exe]+0x614D=0040614D
+        0x5250D7BA
+         [HPSocket4C.dll]+0x3977=524E3977
+          0x5250CA30
+           0x5250B509
+            0x52514BDD
+             0x5251696A
+              0x5251661C
+               0x5251647C
+                0x525F23AA
+                 0x525F2434
+                  0x003A0034
+                   0x003A0015
+
+2018年6月24日17时24分53秒 服务器启动成功
+2018年6月24日17时24分57秒 警告:程序发生错误
+错误信息:访问无效内存
+         尝试的操作：读取
+         目标地址:0x00000178
+发生位置:0x10091DBE
+相对地址:[test.epa].0x00091DBE
+分析位置:0x00320034
+CallStack:
+ 0x10091DBE
+  0x100774FC
+   0x100786AC
+    [ntdll.dll].RtlQueryEnvironmentVariable+0x0245
+     [ntdll.dll].LdrShutdownThread+0xE2
+      [ntdll.dll].RtlExitUserThread+0x2A
+       [msvcrt.dll]._endthreadex+0x23
+        [msvcrt.dll]._itow_s+0x52
+         [msvcrt.dll]._endthreadex+0x6C
+          0x00320034
+           0x00320015
+

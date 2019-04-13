@@ -1,0 +1,48 @@
+相关注释已经有标准，更加详细的例子请下载教程文件夹源码
+将开发模版编译成dll后改后缀为epa放入网站根目录
+【2019-4-11】
+新增命令
+   Mysql_ 系列命令 用以操作连接池，具体请查看模块命令说明；
+
+
+【2019-4-10】
+新增命令
+   Mysql_取库句柄(连接池指针) //返回对应的数据库句柄，使用完毕后请用Mysql_释放库句柄 释放后该指针不可二次使用
+   Mysql_释放库句柄(连接池指针,数据库句柄) //释放取得的mysql数据库句柄 释放后该指针不可二次使用
+   以上两条命令可能会导致报错，谨慎使用，如果出来EPA不能访问请及时查看日志
+
+   优化WEB_输出信息()在个别系统不能使用的BUG
+
+
+【2019-03-14】
+新增命令
+   Epa_取网站根目录() //返回网站根目录 如返回：C:\WebEpa\WWW\ 调试模式下返回模块运行目录
+
+
+【2018-10-23】SDK1.1 模块版本1.48
+1.修改WEB_取协议值以及其引申命令取出相关信息带报头，需要二次处理的问题；
+
+举例:协议头=Accept: text/html, */*; q=0.01
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Cookie: sign=WsdzMdqjW/NHhjz//Z8yATl2XlD4/o8JZOw=; Sid=E0B7B9D4
+Host: 127.0.0.1
+旧：cookies=WEB_取协议值(协议头,“cookies”)
+cookies=“Cookie: sign=WsdzMdqjW/NHhjz//Z8yATl2XlD4/o8JZOw=; Sid=E0B7B9D4”
+
+新：cookies=WEB_取协议值(协议头,“cookies”)
+cookies=“sign=WsdzMdqjW/NHhjz//Z8yATl2XlD4/o8JZOw=; Sid=E0B7B9D4”
+
+【2018-10-22】SDK1.1 模块版本1.47
+1.修复对提交参数以及cookies键值大小写敏感的问题
+
+【2018-10-15】SDK1.1 模块版本1.46
+1.修复Cookies新增返回sid为空的问题(很重要，影响cookies的验证)
+2.WEB_输出信息 调用时判断调试程序未启动将自动启动
+
+【2018-10-15】SDK1.1 模块版本1.46
+1.修复WEB_取Cookie键值取出的相关键值不精确的问题
+2.增加POST_取上传文件名，POST_取文件数据两个功能程序
+3.修复WEB_输出信息不能将内容输出到调试器的问题
+
